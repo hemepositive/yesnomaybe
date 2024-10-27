@@ -1,0 +1,75 @@
+@import 'bulma/css/bulma.min.css';
+
+body {
+  background-color: #35363a;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #202124;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.title, .subtitle {
+  color: #fff !important;
+}
+
+.button.is-primary {
+  background-color: #8ab4f8;
+  color: #202124;
+  font-weight: 600;
+}
+
+.button.is-primary:hover {
+  background-color: #7aa3e7;
+}
+
+.radio-label {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.question-text {
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+  background-color: #35363a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.result-item {
+  border-left: 4px solid #8ab4f8;
+  transition: transform 0.2s ease;
+}
+
+.result-item:hover {
+  transform: translateX(5px);
+}
+
+.result-label {
+  color: #8ab4f8;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.result-value {
+  color: #fff;
+  font-weight: 500;
+}
+
+.progress::-webkit-progress-value {
+  background-color: #8ab4f8;
+}
+
+.progress::-moz-progress-bar {
+  background-color: #8ab4f8;
+}
+
+.content ul li {
+  color: #fff;
+}
